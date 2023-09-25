@@ -1,0 +1,13 @@
+/* Default (Light) theme styles */
+body.Light {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Dark theme styles */
+body.Dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Add other styles as needed, for buttons, inputs, etc. */

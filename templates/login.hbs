@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="{{theme}}">
+    <form action="/login" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        {{#if rememberMe}}
+        <div>
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+        </div>
+        {{/if}}
+
+        <div>
+            <input type="submit" value="Login">
+        </div>
+        
+
+    </form>
+</body>
+</html>

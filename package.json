@@ -1,0 +1,23 @@
+{
+  "name": "authnest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "authnest": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Prince Ariel Ndlozi",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.36.0",
+    "commander": "^11.0.0",
+    "firebase-admin": "^11.10.1",
+    "handlebars": "^4.7.8",
+    "http-server": "^14.1.1",
+    "inquirer": "^9.2.11"
+  }
+}
